@@ -9,3 +9,21 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 22ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 7738)
 
 
+Started GET "/" for 10.211.13.1 at 2024-05-13 19:21:14 +0200
+Cannot render console from 10.211.13.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ruben_server/.rbenv/versions/3.3.1/lib/ruby/gems/3.3.0/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ruben_server/.rbenv/versions/3.3.1/lib/ruby/gems/3.3.0/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 363)
+Completed 200 OK in 22ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 4360)
+
+
+Started GET "/" for 10.211.13.1 at 2024-05-16 16:23:39 +0200
+Cannot render console from 10.211.13.1! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ruben_server/.rbenv/versions/3.3.1/lib/ruby/gems/3.3.0/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ruben_server/.rbenv/versions/3.3.1/lib/ruby/gems/3.3.0/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 363)
+Completed 200 OK in 20ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4298)
+
+
